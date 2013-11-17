@@ -28,4 +28,13 @@ a branch.
 
 Вместо этого лучше всегда пользоваться только `git pull remote-name`, поскольку она производит объединения согласно tracking info.
 
+Ответ на "warning: push.default is unset": см. http://stackoverflow.com/questions/13148066/; если кратко, то matching запушит все отслежываемые в данном удаленном репозитории ветки, а simple — только текущую. Говорят, безопасней пользоваться simple, но тогда нужно не забывать публиковать все интересующие ветки по отдельности.
+
+    git config --global push.default simple
+
+Псевдонимы
+    
+    git config --global alias.ci commit
+    git config --global alias.st status    
+
 
