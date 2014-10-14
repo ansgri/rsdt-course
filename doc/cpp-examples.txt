@@ -1,0 +1,256 @@
+# camera calibration
+./cpp-example-calibration_artificial
+
+# basic imgprc
+./c-example-polar_transforms
+./cpp-example-connected_components
+./c-example-contours
+./cpp-example-contours2
+./c-example-morphology ../../samples/c/baboon.jpg
+./cpp-example-laplace
+./cpp-example-demhist ../../samples/cpp/baboon.jpg
+
+# misc tools
+./cpp-example-cout_mat
+
+# geometry
+./cpp-example-minarea
+./cpp-example-kalman
+./cpp-example-convexhull
+./cpp-example-delaunay2
+
+# segmentation
+./cpp-example-grabcut ../../samples/cpp/baboon.jpg
+./cpp-example-meanshift_segmentation ../../samples/cpp/baboon.jpg
+./cpp-example-watershed ../../samples/cpp/baboon.jpg
+./c-example-pyramid_segmentation ../../samples/c/fruits.jpg
+./cpp-example-segment_objects
+./c-example-delaunay
+
+# advanced imgprc
+./cpp-example-inpaint ../../samples/cpp/baboon.jpg
+./cpp-example-retinaDemo -video
+
+# stable features
+./c-example-mser_sample ../../samples/c/puzzle.png
+
+# object detection
+./c-example-facedetect
+./c-example-smiledetect
+./c-example-adaptiveskindetector
+./c-example-find_obj ../../samples/c/box.png ../../samples/c/box_in_scene.png
+./c-example-latentsvmdetect ../../samples/c/cat.jpg ../../samples/c/cat.xml
+
+# bgfg segmentation
+./c-example-bgfg_codebook -c  # wait to init
+./cpp-example-bgfg_gmg
+./cpp-example-bgfg_segm
+
+# motion analysis
+./cpp-example-lkdemo
+./c-example-fback_c
+./c-example-motempl
+./cpp-example-camshiftdemo
+./cpp-example-phase_corr
+
+
+
+# ---------------------------
+# complex
+./c-example-blobtrack_sample
+./c-example-find_obj_calonder ../../samples/c/box.png ../../samples/c/box_in_scene.png
+./c-example-find_obj_ferns
+./c-example-mushroom ../../samples/c/agaricus-lepiota.data
+./c-example-one_way_sample
+./c-example-tree_engine
+./cpp-example-3calibration
+./cpp-example-bagofwords_classification
+./cpp-example-brief_match_test ../../samples/c/box.png ../../samples/c/box_in_scene.png
+./cpp-example-build3dmodel
+./cpp-example-calibration
+./cpp-example-chamfer
+./cpp-example-descriptor_extractor_matcher
+./cpp-example-detection_based_tracker_sample
+./cpp-example-detector_descriptor_evaluation
+./cpp-example-detector_descriptor_matcher_evaluation
+./cpp-example-rgbdodometry
+
+# none
+./c-example-convert_cascade
+
+
+./cpp-example-dft
+./cpp-example-distrans
+./cpp-example-drawing
+./cpp-example-edge
+./cpp-example-em
+./cpp-example-fabmap_sample
+./cpp-example-facerec_demo
+./cpp-example-fback
+./cpp-example-ffilldemo
+./cpp-example-filestorage
+./cpp-example-fitellipse
+./cpp-example-freak_demo
+./cpp-example-gencolors
+./cpp-example-generic_descriptor_match
+./cpp-example-houghcircles
+./cpp-example-houghlines
+./cpp-example-hybridtrackingsample
+./cpp-example-image
+./cpp-example-imagelist_creator
+./cpp-example-image_sequence
+./cpp-example-intelperc_capture
+./cpp-example-kmeans
+./cpp-example-latentsvm_multidetect
+./cpp-example-letter_recog
+./cpp-example-linemod
+./cpp-example-logpolar_bsm
+./cpp-example-matcher_simple
+./cpp-example-matching_to_many_images
+./cpp-example-morphology2
+./cpp-example-opencv_version
+./cpp-example-OpenEXRimages_HDR_Retina_toneMapping
+./cpp-example-OpenEXRimages_HDR_Retina_toneMapping_video
+./cpp-example-openni_capture
+./cpp-example-pca
+./cpp-example-peopledetect
+./cpp-example-points_classifier
+./cpp-example-select3dobj
+./cpp-example-simpleflow_demo
+./cpp-example-squares
+./cpp-example-starter_imagelist
+./cpp-example-starter_imagelist_video
+./cpp-example-stereo_calib
+./cpp-example-stereo_match
+./cpp-example-stitching
+./cpp-example-stitching_detailed
+./cpp-example-tvl1_optical_flow
+./cpp-example-video_dmtx
+./cpp-example-video_homography
+./cpp-example-videostab
+./cpp-tutorial-AddingImages
+./cpp-tutorial-AddingImagesTrackbar
+./cpp-tutorial-BasicLinearTransforms
+./cpp-tutorial-BasicLinearTransformsTrackbar
+./cpp-tutorial-calcBackProject_Demo1
+./cpp-tutorial-calcBackProject_Demo2
+./cpp-tutorial-calcHist_Demo
+./cpp-tutorial-camera_calibration
+./cpp-tutorial-CannyDetector_Demo
+./cpp-tutorial-compareHist_Demo
+./cpp-tutorial-copyMakeBorder_demo
+./cpp-tutorial-cornerDetector_Demo
+./cpp-tutorial-cornerHarris_Demo
+./cpp-tutorial-cornerSubPix_Demo
+./cpp-tutorial-discrete_fourier_transform
+./cpp-tutorial-display_image
+./cpp-tutorial-Drawing_1
+./cpp-tutorial-Drawing_2
+./cpp-tutorial-EqualizeHist_Demo
+./cpp-tutorial-file_input_output
+./cpp-tutorial-filter2D_demo
+./cpp-tutorial-findContours_demo
+./cpp-tutorial-generalContours_demo1
+./cpp-tutorial-generalContours_demo2
+./cpp-tutorial-Geometric_Transforms_Demo
+./cpp-tutorial-goodFeaturesToTrack_Demo
+./cpp-tutorial-gpu-basics-similarity
+./cpp-tutorial-HoughCircle_Demo
+./cpp-tutorial-HoughLines_Demo
+./cpp-tutorial-how_to_scan_images
+./cpp-tutorial-hull_demo
+./cpp-tutorial-interoperability_with_OpenCV_1
+./cpp-tutorial-introduction_to_svm
+./cpp-tutorial-introduction_windows_vs
+./cpp-tutorial-Laplace_Demo
+./cpp-tutorial-MatchTemplate_Demo
+./cpp-tutorial-mat_mask_operations
+./cpp-tutorial-mat_the_basic_image_container
+./cpp-tutorial-moments_demo
+./cpp-tutorial-Morphology_1
+./cpp-tutorial-Morphology_2
+./cpp-tutorial-non_linear_svms
+./cpp-tutorial-objectDetection
+./cpp-tutorial-objectDetection2
+./cpp-tutorial-pointPolygonTest_demo
+./cpp-tutorial-Pyramids
+./cpp-tutorial-Remap_Demo
+./cpp-tutorial-retina_tutorial
+./cpp-tutorial-SBM_Sample
+./cpp-tutorial-Smoothing
+./cpp-tutorial-Sobel_Demo
+./cpp-tutorial-SURF_descriptor
+./cpp-tutorial-SURF_detector
+./cpp-tutorial-SURF_FlannMatcher
+./cpp-tutorial-SURF_Homography
+./cpp-tutorial-Threshold
+./cpp-tutorial-video-input-psnr-ssim
+./cpp-tutorial-video-write
+./gpu-example-alpha_comp
+./gpu-example-bgfg_segm
+./gpu-example-brox_optical_flow
+./gpu-example-cascadeclassifier
+./gpu-example-cascadeclassifier_nvidia_api
+./gpu-example-driver_api_multi
+./gpu-example-driver_api_stereo_multi
+./gpu-example-farneback_optical_flow
+./gpu-example-generalized_hough
+./gpu-example-hog
+./gpu-example-houghlines
+./gpu-example-morphology
+./gpu-example-multi
+./gpu-example-opengl
+./gpu-example-optical_flow
+./gpu-example-opticalflow_nvidia_api
+./gpu-example-pyrlk_optical_flow
+./gpu-example-stereo_match
+./gpu-example-stereo_multi
+./gpu-example-super_resolution
+./gpu-example-surf_keypoint_matcher
+./gpu-example-video_reader
+./gpu-example-video_writer
+./ocl-example-adaptive_bilateral_filter
+./ocl-example-bgfg_segm
+./ocl-example-clahe
+./ocl-example-facedetect
+./ocl-example-hog
+./ocl-example-pyrlk_optical_flow
+./ocl-example-squares
+./ocl-example-stereo_match
+./ocl-example-surf_matcher
+./ocl-example-tvl1_optical_flow
+./opencv_createsamples
+./opencv_haartraining
+./opencv_perf_calib3d
+./opencv_perf_core
+./opencv_perf_features2d
+./opencv_perf_gpu
+./opencv_perf_highgui
+./opencv_perf_imgproc
+./opencv_perf_nonfree
+./opencv_perf_objdetect
+./opencv_perf_ocl
+./opencv_performance
+./opencv_perf_photo
+./opencv_perf_stitching
+./opencv_perf_superres
+./opencv_perf_video
+./opencv_test_calib3d
+./opencv_test_contrib
+./opencv_test_core
+./opencv_test_features2d
+./opencv_test_flann
+./opencv_test_gpu
+./opencv_test_highgui
+./opencv_test_imgproc
+./opencv_test_legacy
+./opencv_test_ml
+./opencv_test_nonfree
+./opencv_test_objdetect
+./opencv_test_ocl
+./opencv_test_photo
+./opencv_test_stitching
+./opencv_test_superres
+./opencv_test_video
+./opencv_traincascade
+./performance_gpu
